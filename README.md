@@ -31,11 +31,11 @@ A lightweight, modular air traffic simulation suite for prototyping, education, 
   ```
 - **With Runway Queue, AI, Logging:**
   ```bash
-  python aeri_oms_v2.py --ticks 30 --flights 15 --realtime 0.8
+  python aero_oms_v2.py --ticks 30 --flights 15 --realtime 0.8
   ```
 - **With Geodesy (realistic positions):**
   ```bash
-  python aeri_oms_v3.py --ticks 10000 --flights 30 --realtime 0.05 --tick_minutes 1
+  python aero_oms_v3.py --ticks 10000 --flights 30 --realtime 0.05 --tick_minutes 1
   ```
 
 #### National Airspace Simulator (Live Dashboard)
@@ -54,8 +54,8 @@ A lightweight, modular air traffic simulation suite for prototyping, education, 
 
 ## File Descriptions
 - `aero_oms.py`: Original regional simulator. Simulates basic flight phases with CLI visualization.
-- `aeri_oms_v2.py`: Enhanced regional simulator with runway queue, controller AI, delay tracking, and CSV logging.
-- `aeri_oms_v3.py`: Regional simulator with geodesy (realistic positions and distances).
+- `aero_oms_v2.py`: Enhanced regional simulator with runway queue, controller AI, delay tracking, and CSV logging.
+- `aero_oms_v3.py`: Regional simulator with geodesy (realistic positions and distances).
 - `nation_oms.py`: National airspace simulator. Simulates all FAA regions and flight types, with a live updating dashboard.
 - `development/feedback.log`: AI and user feedback, feature ideas, and roadmap notes.
 - `development/progress.log`: Milestone and progress tracking (see for latest changes).
