@@ -132,7 +132,7 @@ def generate_flights(n=10):
     return flights
 
 def render_table(flights, tick):
-    table = Table(title=f"🛩️ PNW Air Traffic v2 — Tick {tick}", box=box.SQUARE)
+    table = Table(title=f"🛩️ Regional Air Traffic v2 — Tick {tick}", box=box.SQUARE)
     table.add_column("Flight", style="bold cyan")
     table.add_column("From ➡ To", style="magenta")
     table.add_column("Phase", style="white")
@@ -186,7 +186,7 @@ def run_sim(duration_ticks, num_flights, tick_delay):
         console.print(f"[bold green]{icao} runway utilization: {ap.utilization} takeoffs")
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="PNW Air Traffic Simulator v2")
+    parser = argparse.ArgumentParser(description="Regional Air Traffic Simulator v2")
     parser.add_argument("--ticks", type=int, default=30, help="Number of simulation steps")
     parser.add_argument("--flights", type=int, default=15, help="Number of concurrent flights")
     parser.add_argument("--realtime", type=float, default=0.8, help="Seconds per tick (e.g., 1 = real time)")

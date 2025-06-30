@@ -1,0 +1,26 @@
+{
+  "name": "aero_oms",
+  "version": "1.0.0",
+  "description": "lightweight, modular air traffic simulation tool",
+  "main": "app.py",
+  "scripts": {
+    "test": "python app.py --normal"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Photon1c/airtraffic_cli.git"
+  },
+  "keywords": [
+    "flight",
+    "simulator",
+    "operations",
+    "management",
+    "logistics"
+  ],
+  "author": "Leslie Cuadra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Photon1c/airtraffic_cli/issues"
+  },
+  "homepage": "https://github.com/Photon1c/airtraffic_cli#readme"
+}
