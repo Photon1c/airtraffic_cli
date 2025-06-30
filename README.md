@@ -25,7 +25,7 @@ python aero_oms.py --ticks 30 --flights 15 --realtime 0.8
 
 #### Version 2 (With Runway Queue, AI, Logging):
 ```bash
-python aeri_oms_v2.py --ticks 30 --flights 15 --realtime 0.8
+python aero_oms_v2.py --ticks 30 --flights 15 --realtime 0.8
 ```
 - `--ticks`: Number of simulation steps
 - `--flights`: Number of concurrent flights
@@ -38,7 +38,7 @@ python aeri_oms_v2.py --ticks 30 --flights 15 --realtime 0.8
 
 ## File Descriptions
 - `aero_oms.py`: Original simulator. Simulates basic flight phases with CLI visualization.
-- `aeri_oms_v2.py`: Enhanced simulator with runway queue, controller AI, delay tracking, and CSV logging. Modular for future upgrades.
+- `aero_oms_v2.py`: Enhanced simulator with runway queue, controller AI, delay tracking, and CSV logging. Modular for future upgrades.
 - `development/feedback.log`: AI and user feedback, feature ideas, and roadmap notes.
 - `development/progress.log`: Milestone and progress tracking (see for latest changes).
 - `development/progresstemplate.md`: Template for progress logs.
