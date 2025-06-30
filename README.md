@@ -1,6 +1,6 @@
 # Regional Air Traffic Control Simulator
 
-A lightweight, modular air traffic simulation tool for prototyping, education, and research. Simulates flights between Pacific Northwest airports, with runway queueing, controller AI, and data logging.
+A lightweight, modular air traffic simulation tool for prototyping, education, and research. It simulates flights between Pacific Northwest airports, with runway queueing, controller AI, and data logging.
 
 ## Features
 - Simulates multiple flights between real PNW airports
