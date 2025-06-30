@@ -1,0 +1,25 @@
+Version: 2.0.0
+
+### 🔄 [2024-06-10] Module Logic Updates
+
+- ✈️ `aeri_oms_v2.py`: Major upgrade with runway queue/slot scheduling, controller AI, delay tracking, and CSV logging.
+  _Effect: Enables more realistic takeoff sequencing, tracks delays, and logs simulation data for analysis._
+- 🧠 `aeri_oms_v2.py`: Modular structure for easy expansion (emergencies, go-arounds, advanced AI).
+  _Effect: Facilitates future development and feature addition._
+- 📜 `README.md`: Added project overview, usage, and roadmap.
+
+---
+
+**Output Cues:**
+- "Runway utilization for KSEA now tracked and reported at simulation end."
+- "Delays for each flight are logged and visible in sim_log.csv."
+- "Takeoff queue logic ensures realistic spacing and sequencing."
+
+---
+
+**Next:**  
+- Add weather diversions, emergencies, and go-arounds  
+- Implement conflict detection and deconfliction AI  
+- Add interactive ATC trainer mode or human-in-the-loop CLI prompts
+
+**Ref:** N/A 
