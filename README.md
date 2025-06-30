@@ -2,6 +2,8 @@
 
 A lightweight, modular air traffic simulation tool for prototyping, education, and research. It simulates flights between Pacific Northwest airports, with runway queueing, controller AI, and data logging.
 
+![sample](media/sample.gif)
+
 ## Features
 - Simulates multiple flights between real PNW airports
 - Runway slotting and takeoff queue logic
