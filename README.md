@@ -1,5 +1,7 @@
 # Regional & National Air Traffic Control Simulator
 
+![sample](media/sample.gif)  
+
 A lightweight, modular air traffic simulation suite for prototyping, education, and research. Simulates flights between U.S. airports, with regional (PNW) and full national airspace options, runway queueing, controller AI, and live data dashboards.
 
 ## Features
